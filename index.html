@@ -1,0 +1,434 @@
+<style type="text/css">
+	.Header{
+		background-color: gray;
+		height: 70px;
+		font-family: Arial;
+
+	}
+
+	.charts_container{
+		
+		height: 720px; 
+		width: 710px;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: Arial;
+	}
+
+	.Header_center{
+		background-color: gray;
+		width: 710px;
+		height: 68px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+	}
+
+	.charts_sort{
+		width: 710px;
+		height: 100px;
+		display: flex;
+
+	}
+
+	.charts_up{
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,173,61,1) 0%, rgba(0,39,129,1) 100%);
+		width: 710px;
+		height: 100px;
+		margin-top: 5px;
+		border-radius: 5px;
+		display: flex;
+		border-radius: 10px;
+
+	}
+
+	.charts_new{
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(180,27,203,1) 0%, rgba(200,0,0,1) 100%);
+		width: 710px;
+		height: 100px;
+		margin-top: 5px;
+		border-radius: 5px;
+		display: flex;
+		border-radius: 10px;
+
+	}
+
+	.charts_down{
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,61,230,1) 0%, rgba(255,198,198,1) 100%);
+		width: 710px;
+		height: 100px;
+		margin-top: 5px;
+		border-radius: 5px;
+		border-radius: 10px;
+	}
+
+	.box_logo{
+		background-color: gray;
+		width: 150px;
+		height: 68px;
+	}
+	.box_links{
+		background-color: gray;
+		width: 435px;
+		height: 53px;
+		padding-top: 15px;
+		padding-left: 15px;
+	}
+	.box_buttons{
+		background-color: gray;
+		width: 110px;
+		height: 53px;
+		padding-top: 15px;
+	}
+
+	.charts_rank{
+		width: 90px;
+		height: 100px;
+		
+	}
+
+	.charts_info{
+	
+	width: 390px;
+	height: 100px;
+	margin-left: 10px;
+	}
+
+	.charts_button{
+
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	}
+
+	.charts_img{
+
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 5px;
+	border-radius: 10px;
+	}
+
+	.charts_down{
+		background-color: #edc2c2;
+		width: 710px;
+		height: 100px;
+		margin-top: 5px;
+		border-radius: 5px;
+		display: flex;
+	}
+
+	.button{
+		background-color: blue;
+		height: 20px;
+		width: 80px;
+		margin-right: 50px;
+		font-size: 10px;
+		border: none;
+		margin-left: 10px;
+		margin-top: 25px;
+		color: white;
+		border-radius: 3px;
+
+	}
+
+	.button8{
+		background-color: green;
+		height: 20px;
+		width: 50px;
+		margin-right: 50px;
+		font-size: 10px;
+		border: none;
+		margin-left: 10px;
+		margin-top: 25px;
+		color: white;
+		border-radius: 3px;
+
+	}
+
+	.font{
+			font-family: Arial;
+			font-size: 15px;
+			text-align: center;
+		}
+
+	.logo{
+		width: 150px; 
+		margin-top: 15px;
+	}
+
+	.sas{
+		padding-top: 15px;
+		color: white;
+		margin-left: 20px;
+	}
+	.sas:hover{
+		color: orange;
+		transition: 0.5s;
+	}
+
+	.charts_sort1{
+		width: 710px;
+		height: 70px;
+		display: flex;
+	}
+
+	.button3{
+		background-color: orange;
+		height: 20px;
+		width: 80px;
+		margin-right: 5px;
+		font-size: 10px;
+		border: none;
+		margin-left: 10px;
+		margin-top: 25px;
+		color: white;
+		border-radius: 3px;
+	}
+
+	.button1{
+		background-color: red;
+		height: 20px;
+		width: 80px;
+		margin-right: 5px;
+		font-size: 10px;
+		border: none;
+		margin-left: 10px;
+		margin-top: 25px;
+		color: white;
+		border-radius: 3px;
+	}
+
+	.button2{
+		background-color: green;
+		height: 20px;
+		width: 80px;
+		margin-right: 5px;
+		font-size: 10px;
+		border: none;
+		margin-left: 10px;
+		margin-top: 25px;
+		color: white;
+		border-radius: 3px;
+	}
+
+	.button4{
+		background-color: purple;
+		height: 20px;
+		width: 80px;
+		margin-right: 5px;
+		font-size: 10px;
+		border: none;
+		margin-left: 10px;
+		margin-top: 25px;
+		color: white;
+		border-radius: 3px;
+	}
+
+	.up{
+		font-family: Arial;
+		font-size: 15px;
+		text-align: center;
+		color: green;
+	}
+
+	.new{
+		font-family: Arial;
+		font-size: 15px;
+		text-align: center;
+		color: orange;
+	}
+
+	.down{
+		font-family: Arial;
+		font-size: 15px;
+		text-align: center;
+		color: red;
+	}
+
+	.music{
+		color: #12365c
+	}
+
+	.sas1{
+		padding-top: 20px;
+		color: white;
+		margin-left: 20px;
+	}
+	.sas1:hover{
+		color: red;
+		transition: 0.5s;
+	}
+
+	.sas2{
+		padding-top: 20px;
+		color: white;
+		margin-left: 20px;
+	}
+	.sas2:hover{
+		color: green;
+		transition: 0.5s;
+	}
+
+	.sas3{
+		padding-top: 20px;
+		color: white;
+		margin-left: 20px;
+	}
+	.sas3:hover{
+		color:purple;
+		transition: 0.5s;
+	}
+
+.img{
+	width: 90px;
+	border-radius: 10px;
+}
+</style>
+
+<div class="Header">
+	<div class="Header_center">
+		<div class="box_logo">
+			<img src="logo.png" class="logo">
+		</div>
+		<div class="box_links">
+			<a href="" class="sas"> CHARTS </a>
+			<a href="" class="sas1"> NEWS </a>
+			<a href="" class="sas2"> VIDEO </a>
+			<a href="" class="sas3"> PHOTOS </a>
+		</div>
+		<div class="box_buttons">
+			<button style="background-color: purple; color: white; border: none; color: white; border-radius: 3px; height: 25px; width: 80px; text-align: center;"> subscribe </button>
+		</div>
+	</div>
+</div>
+
+
+<div class="charts_container">
+	<div class="charts_sort1">
+		<button class="button3"> THIS WEEK </button>
+		<button class="button1"> LAST WEEK </button>
+		<button class="button2"> PEAK </button>
+		<button class="button4">  DURATION </button>
+	</div>	
+	<div class="charts_up">
+		<div class="charts_rank">
+			<h2 style="text-align: center;"> 1 </h2>
+			<p class="up"> Up </p>
+		</div>
+		<div class="charts_info">
+			<p class="music"> Savage Love (Laxed - Siren Beat) </p>
+			<p> Jaws 685 x Jason Derulo x BTS </p>
+		</div>
+		<div class="charts_button">
+			<button class="button">  Воиспровести </button>
+		</div>
+		<div class="charts_img">
+			<img src="1.jpg" class="img">
+		</div>
+	</div>
+	<div class="charts_new">
+		<div class="charts_rank">
+			<h2 style="text-align: center;"> 2 </h2>
+			<p class="new"> New </p>
+		</div>
+		<div class="charts_info">
+			<p> Dynamite</p>
+			<p> BTS </p>
+		</div>
+		<div class="charts_button">
+			<button class="button8">  Купить </button>
+		</div>
+		<div class="charts_img">
+			<img src="2.jpg" class="img">
+		</div>
+	</div>
+	<div class="charts_new">
+		<div class="charts_rank">
+			<h2 style="text-align: center;"> 3 </h2>
+			<p class="new"> New </p>
+		</div>
+		<div class="charts_info">
+			<p class="music"> WAP </p>
+			<p> Cardi D featuring Megan Thee Stallion</p>
+		</div>
+		<div class="charts_button">
+			<button class="button8">  Купить </button>
+		</div>
+		<div class="charts_img">
+			<img src="3.jpg" class="img">
+		</div>
+	</div>
+	<div class="charts_up">
+		<div class="charts_rank">
+			<h2 style="text-align: center;"> 4 </h2>
+			<p class="up"> Up </p>
+		</div>
+		<div class="charts_info">
+			<p class="music"> Mood </p>
+			<p> 24lGoldn featuring iann dior </p>
+		</div>
+		<div class="charts_button">
+			<button class="button8">  Купить </button>
+			
+		</div>
+		<div class="charts_img">
+			<img src="5.jpg" class="img">
+		</div>
+	</div>
+	<div class="charts_down">
+		<div class="charts_rank">
+			<h2 style="text-align: center;"> 5 </h2>
+			<p class="down"> Down </p>
+		</div>
+		<div class="charts_info">
+			<p class="music"> Laugh Now Cry Later</p>
+			<p> Drake featuring Lil Durk</p>
+		</div>
+		<div class="charts_button">
+			<button class="button8">  Купить </button>
+		</div>
+		<div class="charts_img">
+			<img src="6.jpg" class="img">
+		</div>
+	</div>
+
+	<div class="charts_new">
+		<div class="charts_rank">
+			<h2 style="text-align: center;"> 6 </h2>
+			<p class="new"> New </p>
+		</div>
+		<div class="charts_info">
+			<p class="music"> Bling Lights</p>
+			<p> The Weekend </p>
+		</div>
+		<div class="charts_button">
+			<button class="button">  Воиспровести </button>
+		</div>
+		<div class="charts_img">
+			<img src="4.jpg" class="img">
+		</div>
+	</div>
+	<div class="charts_up">
+		<div class="charts_rank">
+			<h2 style="text-align: center;"> 7 </h2>
+			<p class="up"> Up </p>
+		</div>
+		<div class="charts_info">
+			<p class="music"> Rockstar </p>
+			<p>DaBaby Featuring Robby Rich </p>
+		</div>
+		<div class="charts_button">
+			<button class="button">  Воиспровести </button>
+		</div>
+		<div class="charts_img">
+			<img src="7.jpg" class="img">
+		</div>
+	</div>
+</div>
+
+
+
+
+
